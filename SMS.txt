@@ -1,0 +1,86 @@
+Here’s a list of Email-to-SMS (or MMS) gateways for the major U.S. wireless carriers. These gateways allow you to send SMS or MMS messages via email by addressing them to the recipient's phone number followed by the carrier's domain.
+
+1. Verizon
+SMS Gateway: @vtext.com
+Example: 1234567890@vtext.com
+For messages up to 160 characters (plain text only).
+MMS Gateway: @vzwpix.com
+Example: 1234567890@vzwpix.com
+For longer messages or multimedia (pictures, videos, etc.).
+
+2. AT&T
+SMS Gateway: @txt.att.net
+Example: 1234567890@txt.att.net
+For messages up to 160 characters.
+MMS Gateway: @mms.att.net
+Example: 1234567890@mms.att.net
+For multimedia messages.
+
+3. T-Mobile
+SMS Gateway: @tmomail.net
+Example: 1234567890@tmomail.net
+For plain text messages.
+MMS Gateway: @tmomail.net
+Example: 1234567890@tmomail.net
+Same as the SMS gateway; supports multimedia.
+
+4. Sprint (Now Part of T-Mobile)
+SMS Gateway: @messaging.sprintpcs.com
+Example: 1234567890@messaging.sprintpcs.com
+For plain text messages.
+MMS Gateway: @pm.sprint.com
+Example: 1234567890@pm.sprint.com
+For multimedia messages.
+
+5. US Cellular
+SMS Gateway: @email.uscc.net
+Example: 1234567890@email.uscc.net
+For plain text messages.
+MMS Gateway: @mms.uscc.net
+Example: 1234567890@mms.uscc.net
+For multimedia messages.
+
+6. Boost Mobile
+SMS Gateway: @sms.myboostmobile.com
+Example: 1234567890@sms.myboostmobile.com
+MMS Gateway: @myboostmobile.com
+Example: 1234567890@myboostmobile.com
+
+7. Cricket Wireless
+SMS Gateway: @sms.cricketwireless.net
+Example: 1234567890@sms.cricketwireless.net
+MMS Gateway: @mms.cricketwireless.net
+Example: 1234567890@mms.cricketwireless.net
+
+8. MetroPCS (Now Part of T-Mobile)
+SMS Gateway: @metropcs.sms.us
+Example: 1234567890@metropcs.sms.us
+MMS Gateway: @mymetropcs.com
+Example: 1234567890@mymetropcs.com
+
+9. Google Fi
+SMS and MMS Gateway: @msg.fi.google.com
+Example: 1234567890@msg.fi.google.com
+
+10. Ting
+SMS and MMS Gateway: @message.ting.com
+Example: 1234567890@message.ting.com
+
+11. Xfinity Mobile
+SMS Gateway: @vtext.com (Same as Verizon)
+MMS Gateway: @mypixmessages.com
+Example: 1234567890@mypixmessages.com
+
+
+How to Use These Gateways
+C
+ompose an email.
+
+Use the recipient's phone number (10-digit format, no spaces or dashes) followed by the carrier's domain.
+Send the email, and the recipient will receive it as a text or multimedia message.
+
+Important Notes
+
+Gateways can sometimes filter or block emails that look like spam.
+Some carriers may convert multimedia to a link for download rather than embedding the content.
+Ensure the recipient's phone plan supports SMS or MMS to receive these messages.
